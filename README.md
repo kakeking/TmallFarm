@@ -17,13 +17,17 @@ Some commands that might be useful for mobile automation:
 ```
 #Get activity name currently open on phone
 adb shell "dumpsys window windows | grep -E 'mCurrentFocus|mFocusedApp'"
+
 #Check device uuid
 adb devices
+
 #Restart adb server
 sudo adb kill-server
 sudo adb start-server
+
 #uiautomatorviewer cannot open (javac exception): open uiautomatorviewer as text and change last line to 
 exec java -Xmx1600M -XstartOnFirstThread -Dcom.android.uiautomator.bindir="/.android/sdk/tools" -cp "/.android/sdk/tools/lib/x86_64/swt.jar":"/.android/sdk/tools/lib/*" com.android.uiautomator.UiAutomatorViewer
+
 #Change and apply system environment variables
 vim ~/.bash_profile
 source ~/.bash_profile
