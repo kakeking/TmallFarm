@@ -5,7 +5,7 @@ This is not a test case, I create it to help complete game tasks for incentives 
 To use this script, Appium environment should be set correctly, which can be very tricky. 
 All user variables should be modified accordingly in config.property file before running task.
 
-Install Android SDK
+Install Android SDK, Appium desktop and server. 
 Following environment variables must be set to right path (example for Mac in ~/.bash_profile):
 ```
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home"
